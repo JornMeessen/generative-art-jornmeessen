@@ -16,7 +16,7 @@ Letterlijk een digitaal kunstwerk. Met een witte paspartoe om het werk heen, net
 <img src="img/Ruins_2609285226.svg">
 
 Dit schilderij zal live gemaakt worden en als het 'af' is gaat het over in een nieuw werk. Er is altijd beweging in het beeld te zien binnen de kaders.  
-<img src="img/IMG_6774.JPG">
+<img src="img/IMG_6774.JPG" >
 <img src="img/danfa0053_o_905.jpg">
 <img src="img/danfa0053_o_905">
 
