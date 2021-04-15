@@ -19,6 +19,8 @@ Dit schilderij zal live gemaakt worden en als het 'af' is gaat het over in een n
 <img src="img/IMG_6774.JPG" width="400">
 <img src="img/danfa0053_o_905.jpg" width="400">
 
+![Watch the video](https://user-images.githubusercontent.com/45321599/114853683-54752600-9de4-11eb-8ba9-53dbfdff931e.mp4)
+
 Het schilderij wordt gemaakt uit ronden lijnen. Die lijken op de lijnen die van Gogh gebruikt in zijn werk. Er zullen meerderder lijnen tegelijk te zien zijn.
 
 <img src="img/13f12d32-76fe-4ce8-8392-624e5091fa91_thumb840.jpg" width="400">
