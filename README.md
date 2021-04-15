@@ -3,15 +3,32 @@
 # Procesverslag
 
 ## Over
-* **Naam:** `voornaam + achternaam`
-* **Klas:** `vid-1/vid-2`
-* **Minor:** `Visual Interface Design`
+* **Naam:** Jorn Meessen 
+* **Klas:** vid-2
+* **Minor:** Visual Interface Design
 * **Favoriete dier:** `Zeeotters zijn te gek!`
-* **Startniveau:** `blauw/rood/zwart`
+* **Startniveau:** rood
 
 ## Concept
 
-`Beschrijf in het algemeen je concept van je project.`
+Letterlijk een digitaal kunstwerk. Met een witte paspartoe om het werk heen, net of het in een museum hangt.
+
+<img src="img/Ruins_2609285226.svg">
+
+Dit schilderij zal live gemaakt worden en als het 'af' is gaat het over in een nieuw werk. Er is altijd beweging in het beeld te zien binnen de kaders.  
+<img src="img/IMG_6774.JPG">
+<img src="img/simplescreenrecorder-2021-01-10_04-56-11.mp4">
+<img src="img/danfa0053_o_905">
+
+Het schilderij wordt gemaakt uit ronden lijnen. Die lijken op de lijnen die van Gogh gebruikt in zijn werk. Er zullen meerderder lijnen tegelijk te zien zijn.
+<img src="img/13f12d32-76fe-4ce8-8392-624e5091fa91_thumb840.JPG">
+
+
+Wie ben ik of waar sta ik voor:
+-	Clean & netjes/ geordend 
+-	Uitdagend/ creatief
+-	Variatie 
+-	Je moet betoverd worden
 
 ## Features
 
