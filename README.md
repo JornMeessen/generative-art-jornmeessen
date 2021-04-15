@@ -12,16 +12,14 @@
 ## Concept
 
 Letterlijk een digitaal kunstwerk. Met een witte paspartoe om het werk heen, net of het in een museum hangt.
+Het schilderij wordt gemaakt uit ronden lijnen. Die lijken op de lijnen die van Gogh gebruikt in zijn werk. Er zullen meerderder lijnen tegelijk te zien zijn.
 
 <img src="img/Ruins_2609285226.svg" width="400">
+<img src="img/13f12d32-76fe-4ce8-8392-624e5091fa91_thumb840.jpg" width="400">
 
 Dit schilderij zal live gemaakt worden en als het 'af' is gaat het over in een nieuw werk. Er is altijd beweging in het beeld te zien binnen de kaders. 
 
 ![Watch the video](https://user-images.githubusercontent.com/45321599/114853683-54752600-9de4-11eb-8ba9-53dbfdff931e.mp4)
-
-Het schilderij wordt gemaakt uit ronden lijnen. Die lijken op de lijnen die van Gogh gebruikt in zijn werk. Er zullen meerderder lijnen tegelijk te zien zijn.
-
-<img src="img/13f12d32-76fe-4ce8-8392-624e5091fa91_thumb840.jpg" width="400">
 
 Wie ben ik, waar sta ik voor en wat wil ik:
 -	Clean, netjes & geordend 
