@@ -1,22 +1,14 @@
-/* 👇 Start writing your p5.js code here */
+const size = 1000
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(size, size);
+  background('#F9F8F4');
 }
 
 function draw() {
-	if (mouseIsPressed) {
-		fill(9);
-	} else {
-		fill(255);
-	}
-	ellipse(mouseX, mouseY, 80, 80);
-	
-
-  // background(220);
-  // ellipse(width / 2, height / 2, 50, 50);
+  x = random(size)
+  y = random(size)
+  if (pow(size/2 - x, 2) + pow(size/2 - y, 2) < 7e4) {
+    point(x,y)
+  }
 }
-
-// function windowResized() {
-//   resizeCanvas(windowWidth, windowHeight);
-// }
