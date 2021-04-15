@@ -31,6 +31,8 @@ Wie ben ik, waar sta ik voor en wat wil ik:
 
 `Wat zijn de features in het project dat je gemaakt hebt? Waar kan ik op klikken? Waar zit de interactie?`
 
+test
+
 ## Onderzoek & inspiratie
 `Schrijf wat over je onderzoek en je inspiratie voor het project. Hoe kwam je concept tot stand?`
 
