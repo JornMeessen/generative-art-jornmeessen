@@ -11,7 +11,7 @@
 
 ## Concept
 
-Letterlijk een digitaal kunstwerk. Met een witte paspartoe om het werk heen, net of het in een museum hangt.
+Letterlijk een digitaal kunstwerk. Met een witte paspartoe om het werk heen en een naambordje, net of het in een museum hangt.
 Het schilderij wordt gemaakt uit ronden lijnen. Die lijken op de lijnen die van Gogh gebruikt in zijn werk. Er zullen meerderder lijnen tegelijk te zien zijn.
 
 <img src="img/Ruins_2609285226.svg" width="400">
