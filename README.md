@@ -17,16 +17,8 @@ Letterlijk een digitaal kunstwerk. Met een witte paspartoe om het werk heen, net
 
 Dit schilderij zal live gemaakt worden en als het 'af' is gaat het over in een nieuw werk. Er is altijd beweging in het beeld te zien binnen de kaders.  
 <img src="img/IMG_6774.JPG">
-<<<<<<< HEAD
-<video width="400" controls>
-  <source src="img/simplescreenrecorder-2021-01-10_04-56-11.mp4" type="img/simplescreenrecorder-2021-01-10_04-56-11.mp4">
-  Your browser does not support HTML video.
-</video>
 <img src="img/danfa0053_o_905.jpg">
-=======
-https://user-images.githubusercontent.com/45321599/114852720-525e9780-9de3-11eb-83ab-f88e6a7bf830.mp4
 <img src="img/danfa0053_o_905">
->>>>>>> ddd19d0c0aa30f5c2fbb42907847f6afcc950e35
 
 Het schilderij wordt gemaakt uit ronden lijnen. Die lijken op de lijnen die van Gogh gebruikt in zijn werk. Er zullen meerderder lijnen tegelijk te zien zijn.
 <img src="img/13f12d32-76fe-4ce8-8392-624e5091fa91_thumb840.jpg">
