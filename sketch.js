@@ -1,14 +1,14 @@
-const size = 1000
+w = 1000
 
 function setup() {
-  createCanvas(size, size);
+  createCanvas(w, w);
   background('#F9F8F4');
 }
 
 function draw() {
-  x = random(size)
-  y = random(size)
-  if (pow(size/2 - x, 2) + pow(size/2 - y, 2) < 7e4) {
+  x = random(w)
+  y = random(w)
+  if (pow(w/2 - x, 2) + pow(w/2 - y, 2) < 7e4) {
     point(x,y)
   }
 }
