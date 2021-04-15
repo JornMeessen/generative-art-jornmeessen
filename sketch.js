@@ -1,19 +1,37 @@
-w = 1000
+const size = 1000
 
 function setup() {
-  createCanvas(w, w);
+  createCanvas(size, size);
   background('#F9F8F4');
 }
 
-const is_in_circle = (x, y) => 
-  (pow(w / 2 - x, 2) + pow(w / 2 - y, 2) < 7e4)
+const artwork = (x, y) =>
+	
+	
+  (pow(size / 2 - x, 2) + pow(size / 2 - y, 2) < 7e4)
+
+
 
 function draw() {
-  if (is_in_circle(x = random(w), y = random(w)))
-    while (is_in_circle(x, y)) {
-      n = noise(x, y)
-      x += sin(n * TAU)
-      y += cos(n * TAU)
-      point(x, y)
+  if (artwork(x = random(size), y = random(size)))
+    while (artwork(x, y) && random() > 0.01) {
+      richting = noise(x / 500, y / 500)
+      x += sin(richting * TAU)
+      y += cos(richting * TAU)
+      stroke(255, 204, 0);
+      circle(x, y, .8)
     }
 }
+
+
+// no artwork 
+
+// function draw() {
+//   if (x = random(size), y = random(size))
+//     while ( random() > 0.01) {
+//       n = noise(x / 500, y / 500)
+//       x += sin(n * TAU)
+//       y += cos(n * TAU)
+//       circle(x, y, .8)
+//     }
+// }
