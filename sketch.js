@@ -19,7 +19,7 @@ function draw() {
       richting = noise(x / 500, y / 500)
       x += sin(richting * TAU)
       y += cos(richting * TAU)
-      stroke(255, 204, 0);
+      stroke(0, 0, 0);
       circle(x, y, .8)
     }
 }
