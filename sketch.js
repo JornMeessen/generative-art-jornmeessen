@@ -1,4 +1,4 @@
-'use strict';
+ 'use strict';
 
 var sketch = function(p) {
   var agents = [];
@@ -18,13 +18,23 @@ var sketch = function(p) {
     }
   };
 
+
+    let red =  /*255 */ Math.floor(p.random(0, 254) + 1);
+    let green = /*255 */ Math.floor(p.random(0, 254) + 1);
+    let blue = /*255 */ Math.floor(p.random(0, 254) + 1);
+
+    console.log("red " + red );
+    console.log("green " + green );
+    console.log("blue " + blue );
+
+
   p.draw = function() {
     p.fill(0, overlayAlpha);
     p.noStroke();
     p.rect(0, 0, p.width, p.height);
 
     // Draw agents
-    p.stroke(255, agentAlpha);
+    p.stroke(red, green, blue); //agentAlpha
     
     for (var i = 0; i < agentCount; i++) {
       if (drawMode == 1) agents[i].update1(noiseScale, noiseStrength, strokeWidth);
@@ -38,18 +48,19 @@ var sketch = function(p) {
     if (p.key == '2') drawMode = 2;
     //if (p.key == 'w') agentCount = agentCount - 1000;
     //if (p.key == 'f') agentCount = agentCount + 1000;
-    if (p.key == 'p') {
-      var newNoiseSeed = p.floor(p.random(10000));
-      p.noiseSeed(newNoiseSeed);
-    }
+   
+    // if (p.key == 'p') {
+    //   var newNoiseSeed = p.floor(p.random(10000));
+    //   p.noiseSeed(newNoiseSeed);
+    // }
     if (p.keyCode == p.DELETE || p.keyCode == p.BACKSPACE) p.background(255);
 
   };
 
+   console.log(p); 
 
 };
 
 var myp5 = new p5(sketch);
-
 
 
