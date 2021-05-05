@@ -1,38 +1,46 @@
+'use strict';
 
-const size = 1000
+var sketch = function(p) {
+  var agents = [];
+  var agentCount = 4000;
+  var noiseScale = 300;
+  var noiseStrength = 10;
+  var overlayAlpha = 10;
+  var agentAlpha = 90;
+  var strokeWidth = 0.3;
+  var drawMode = 1;
 
-function setup() {
-  createCanvas(size, size);
-  background('#F9F8F4');
-}
+  p.setup = function() {
+    p.createCanvas(p.windowWidth, p.windowHeight);
 
-const artwork = (x, y) =>
-	
-	
-  (pow(size / 2 - x, 2) + pow(size / 2 - y, 2) < 7e4)
-
-
-
-function draw() {
-  if (artwork(x = random(size), y = random(size)))
-    while (artwork(x, y) && random() > 0.01) {
-      richting = noise(x / 500, y / 500)
-      x += sin(richting * TAU)
-      y += cos(richting * TAU)
-      stroke(0, 0, 0);
-      circle(x, y, .8)
+    for (var i = 0; i < agentCount; i++) {
+      agents[i] = new Agent();
     }
-}
+  };
 
+  p.draw = function() {
+    p.fill(255, overlayAlpha);
+    p.noStroke();
+    p.rect(0, 0, p.width, p.height);
 
-// no artwork 
+    // Draw agents
+    p.stroke(0, agentAlpha);
+    for (var i = 0; i < agentCount; i++) {
+      if (drawMode == 1) agents[i].update1(noiseScale, noiseStrength, strokeWidth);
+      else agents[i].update2(noiseScale, noiseStrength, strokeWidth);
+    }
+  };
 
-// function draw() {
-//   if (x = random(size), y = random(size))
-//     while ( random() > 0.01) {
-//       n = noise(x / 500, y / 500)
-//       x += sin(n * TAU)
-//       y += cos(n * TAU)
-//       circle(x, y, .8)
-//     }
-// }
+  p.keyReleased = function() {
+    if (p.key == 's' || p.key == 'S') p.saveCanvas(gd.timestamp(), 'png');
+    if (p.key == '1') drawMode = 1;
+    if (p.key == '2') drawMode = 2;
+    if (p.key == ' ') {
+      var newNoiseSeed = p.floor(p.random(10000));
+      p.noiseSeed(newNoiseSeed);
+    }
+    if (p.keyCode == p.DELETE || p.keyCode == p.BACKSPACE) p.background(255);
+  };
+};
+
+var myp5 = new p5(sketch);
