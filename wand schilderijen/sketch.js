@@ -8,6 +8,7 @@ function preload() {
 
 function setup() {
    createCanvas(windowWidth, windowHeight);
+   background('#504742');
   noLoop();
 }
 
@@ -26,10 +27,20 @@ function draw() {
     console.log(randomCijfer);
 
     let paintingImage = createImg(painting.results[randomCijfer].image);
-    paintingImage.position(positionPainting, 30);
+    paintingImage.position(positionPainting, 50);
 
-    let paintingTitle = painting.results[randomCijfer].title;
-    text(paintingTitle, positionPainting, 400);
+    let paintingTitle = createDiv(painting.results[randomCijfer].title);
+    //text(paintingTitle, positionPainting, 500);
+    paintingTitle.style('text-align', 'center');
+    paintingTitle.style('width', '320px');
+    paintingTitle.position(positionPainting, 50);
+    paintingTitle.style('position', 'absolute');
+    paintingTitle.style('top', '500px');
+    //paintingTitle.style('border', '1px solid aliceblue');
+    paintingTitle.style('background-color', 'rgba(240, 248, 255, 0.11');
+    paintingTitle.style('padding', '1em');
+    paintingTitle.style('font-family', 'roboto');
+    paintingTitle.style('color', 'aliceblue');
 
     positionPainting = positionPainting + paintingSpacing;
     
@@ -60,11 +71,15 @@ function draw() {
       console.log(totalResults);
     }
     
-    let werk = windowWidth / 3;  
+    // let werk = windowWidth / 3;  
 
-    text("Display Width is " + werk, 20, 20);
+    // text("Display Width is " + werk, 20, 20);
 
-  }    
+  }   
+    document.getElementsByTagName("img")[1].onclick = function() {
+      window.location.href = "https://jornmeessen.github.io/generative-art-jornmeessen/";
+    };
+ 
 
 }
   

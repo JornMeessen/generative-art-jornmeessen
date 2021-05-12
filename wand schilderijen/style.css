@@ -6,3 +6,15 @@
   box-sizing: border-box;
 }
 
+img{
+	width: 20em;
+	/* cursor: pointer;*/
+}
+
+img:nth-child(1) {
+ cursor: pointer;
+}
+
+#defaultCanvas0{
+	font-size: 10px;
+}
