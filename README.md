@@ -38,31 +38,45 @@ Je start het project in een meseum waar vanuit een database, random drie Van Gog
 Er wordt een nieuwe pagina geopend waarin een canvas van een schilderij te zijn is waarin genariek gekleurde lijnen te zien zijn. Wanneer je de pagina ververst wordt er een ander patroon gemaakt en de kleur veranderd ook. Je kunt ook het schilderij zelf aanpassen dit doe je door voice comments te gebruiken. De microfoon staat al standaard aan. Mocht de microfoon niet werken dan kan je ook de toetsen van je toetsenbord gebruiken, maar via de stem is leuker ;).
 
 Op de volgende commando's reageert het systeem. Alle commando's zijn ook zichtbaar in de console.log ter bevestiging dat het ontvangen is. 
-* Opslaan `Je mooie schilderij wordt opgeslagen op je computer, als aandenken.`
-* Lijnen `Er worden golvende lijnen gemaakt. Deze staat standaard aan.`
-* Recht `De lijnen worden recht.`
-* Opnieuw `Je begint opnieuw met je schilderij.`
-* Minder `Er gaan lijnen weg.`
-* Meer `Er komen meer lijnen bij. 4000 is het limiet. in de console.log wordt dit aangegeven.`
-* Verander `De richting van de lijnen veranderen.`
-* Kleur `De kleur veranderd.`
+* **bOpslaan** Je mooie schilderij wordt opgeslagen op je computer, als aandenken.
+* **Lijnen** Er worden golvende lijnen gemaakt. Deze staat standaard aan.
+* **Recht** De lijnen worden recht.
+* **Opnieuw** Je begint opnieuw met je schilderij.
+* **Minder** Er gaan lijnen weg.
+* **Meer** Er komen meer lijnen bij. 4000 is het limiet. in de console.log wordt dit aangegeven.
+* **Verander** De richting van de lijnen veranderen.
+* **Kleur** De kleur veranderd.
 
 
 ## Onderzoek & inspiratie
-`Schrijf wat over je onderzoek en je inspiratie voor het project. Hoe kwam je concept tot stand?`
+Mijn concept kwam tot stand door inspiratie die ik gevonden heb (zie bronnenlijst) en door het thema van deze mionor The New Intimacy. Ik ben gaan kijken naar wat leuk vind, mij inspireert en wat mij kan motiveren. Dat is het museum. Ik ben dol op naar een museum te gaan om mij zelf te verwonderen, te inspireren en om te leren. The New Intimacy gaat ook over deze tijd waarin we niet fysiek dingen kunnen doen. Hoe moe is het daarom dat je nu online naar een museum kan gaan en zelf een kunstwerk kan gaan maken in de stijl van een grote meester. Ik heb de kunststroming impressionisme en Van Gogh gekozen omdat de vloeiende lijnen die in het werk van met name Van Gogh zitten mij boeien. Het zijn seerlijke, bewegelijke, dynamische lijnen die het werk veel kracht mee geeft. Deze rondende lijnen vormen steeds opnieuw een nieuwe beeld. Het loop heel vloeiend in elkaar over. 
 
 ## Voortang
 
-`Schrijf hier een klein logboekje met je voortgang per week.`
+### Week 1
+Ik heb nagedacht over een concept en heb een eerste opzet van het project op github gezet. 
+Wat ging goed? - Ben voortvarend aan de slag gegaan. Had een goed idee voor een concept en heb meteen al geexpirimenteerd met p5.js
+Wat kon beter? - Kom wat meer op zoek gaan naar de mogelijke interacties mogelijkheden.
 
-### Week-1
-`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
+### Week 2
+Aan de slag gegaan met de feedback van tijdens de les en het concept aangescherpt. Heb meerdere versies gecodeerd/geprobeerd.
+Wat ging goed? - De feedback verwerken en het concept krachtiger maken.
+Wat kon beter? - Wilde deze week meer gaan coderen.
 
-### Week-2
-`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
+### Week 3
+Ben begonnen met de museum wand met radom schilderijen Van Gogh. Ik wilde hier eerst A-frame voor gebruiken. 
+Wat ging goed? - Het project kreeg zijn vorm de mogelijkheden die er waren binnen het framework wat ik gebruikten. 
+Wat kon beter? - Was deze week teveel bezig met de randzaken (zoals A-frame en het esthetisch). 
 
-### Week-3
-`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
+### Week 4
+Deze week was er geen les ben verder gegaan met het coderen van de museumwand met een database te koppelen. Hievoor heb ik ook buffers in de code aangebracht. Zodat er geen fout output komt. 
+Wat ging goed? - Het project begon zijn huidige vorm te krijgen. Heb het voor elkaar gekregen dat niet twee dezelfde schilderijen te zijn waren. Ook heb ik de verschillden input mogelijkheden gecodeerd. 
+Wat kon beter? - Ik heb geen tijd gehad om aan de interactie te zitten. Hier had ik graag al een vorm in willlen hebben.
+
+### Week 5
+Deze week ben ik met de uistraling en de input van de gebruiker aan de slag gegaan. Tijdens de feedbacksessie kreeg ik positieve reacties op het concept en ontwerp en tips waar ik de interatie van de gebruiker kan toevoegen. 
+Wat ging goed? - Ik heb een orginele manier van interactie met de gebruiker gemaakt. Het werkte allemaal en ik heb de puntjes op de i gezet.
+Wat kon beter? - De overgang tussen de museumwand en het eigen gemaakte schilderij had wat beter kunnen zijn. Denk hierbij aan een transitie of een mooie overgang.
 
 
 ## Bronnenlijst
