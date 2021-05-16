@@ -11,7 +11,7 @@
 
 ## Websitelink
 https://jornmeessen.github.io/generative-art-jornmeessen/schilderijen/
-
+De website werkt het beste op chorme.
 
 ## Concept
 
