@@ -20,20 +20,6 @@ var sketch = function(p) {
     var y = (p.windowHeight - 550) / 2;
     cnv.position(x, y);
 
-    let paintingTitle = p.createDiv('Generative sunflower, 2021');
-    paintingTitle.style('text-align', 'center');
-    paintingTitle.style('font-family', 'roboto');
-    paintingTitle.style('padding', '1em');
-    //paintingTitle.style('width', '100%');
-    paintingTitle.style('position', 'absolute');
-    //paintingTitle.style('border', '1px solid aliceblue');
-    paintingTitle.style('background-color', 'rgba(240, 248, 255, 0.11');
-    paintingTitle.style('top', '610px');
-    paintingTitle.style('color', 'aliceblue');
-    paintingTitle.style('width', '94%');
-    paintingTitle.style('left', '40px');
-
-
     SpeechRec = new p5.SpeechRec();
 
     SpeechRec.continuous = true;
@@ -140,25 +126,6 @@ var sketch = function(p) {
       break 
   }
 }
-
-    
-    
-// let paintingTitle = p.createDiv('Mijn kunstwerk');
-//     //text(paintingTitle, positionPainting, 500);
-//     paintingTitle.style('text-align', 'center');
-//     paintingTitle.style('width', '320px');
-//     paintingTitle.position(positionPainting, 50);
-//     //paintingTitle.style('background-color', 'blue');
-//     paintingTitle.style('position', 'absolute');
-//     paintingTitle.style('top', '500px');
-//     //paintingTitle.style('border', '1px solid black');
-//     paintingTitle.style('padding', '1em');
-//     paintingTitle.style('background-color', '255, 255, 255, 0.71');
-//     paintingTitle.style('font-family', 'roboto');
-
-
-
-
 
    console.log(p); 
 

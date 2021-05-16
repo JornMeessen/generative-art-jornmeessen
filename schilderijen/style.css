@@ -8,10 +8,9 @@
 
 img{
 	width: 20em;
-	/* cursor: pointer;*/
 }
 
-img:nth-child(1) {
+img:nth-child(4) {
  cursor: pointer;
 }
 
