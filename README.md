@@ -33,7 +33,19 @@ Wie ben ik, waar sta ik voor en wat wil ik:
 
 ## Features
 
-`Wat zijn de features in het project dat je gemaakt hebt? Waar kan ik op klikken? Waar zit de interactie?`
+Je start het project in een meseum waar vanuit een database, random drie Van Gogh schilderijen worden getoond. Wanneer je de pagina ververst komen er drie nieuwe schilderijen in te staan. Ik heb het zo codereerd dat er nooit 2 dezelfde schilderijen tegelijk te zien zijn. Je kunt op de middelste schilderij klikken om zelf een schilderij in de stijl van Van Gogh te maken. 
+
+Er wordt een nieuwe pagina geopend waarin een canvas van een schilderij te zijn is waarin genariek gekleurde lijnen te zien zijn. Wanneer je de pagina ververst wordt er een ander patroon gemaakt en de kleur veranderd ook. Je kunt ook het schilderij zelf aanpassen dit doe je door voice comments te gebruiken. De microfoon staat al standaard aan. Mocht de microfoon niet werken dan kan je ook de toetsen van je toetsenbord gebruiken, maar via de stem is leuker ;).
+
+Op de volgende commando's reageert het systeem. Alle commando's zijn ook zichtbaar in de console.log ter bevestiging dat het ontvangen is. 
+* Opslaan `Je mooie schilderij wordt opgeslagen op je computer, als aandenken.`
+* Lijnen `Er worden golvende lijnen gemaakt. Deze staat standaard aan.`
+* Recht `De lijnen worden recht.`
+* Opnieuw `Je begint opnieuw met je schilderij.`
+* Minder `Er gaan lijnen weg.`
+* Meer `Er komen meer lijnen bij. 4000 is het limiet. in de console.log wordt dit aangegeven.`
+* Verander `De richting van de lijnen veranderen.`
+* Kleur `De kleur veranderd.`
 
 
 ## Onderzoek & inspiratie
