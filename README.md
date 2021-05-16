@@ -55,6 +55,7 @@ Wie ben ik, waar sta ik voor en wat wil ik:
 
 ## Bronnenlijst
 
-* `Link naar bron 1`
-* `Link naar bron 2`
-* `Link naar bron 3`
+* https://www.youtube.com/watch?v=qtPi0JvmWbs&list=PLec2Yc8z8E2HzMGFO98nQoiGbwD2E7CL0&index=3
+* https://github.com/CreativeCodeBerlin/creative-coding-minilist#im-an-artist
+* https://www.notion.so/Noise-vector-flow-fields-38d438ae2b364c29aade753567ed216b
+* http://www.generative-gestaltung.de/2/sketches/?02_M/M_1_5_02	
