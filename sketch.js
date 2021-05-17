@@ -19,6 +19,7 @@ var sketch = function(p) {
     var x = (p.windowWidth - 1200) / 2;
     var y = (p.windowHeight - 550) / 2;
     cnv.position(x, y);
+    p.background('#504742');
 
     SpeechRec = new p5.SpeechRec();
 

@@ -13,9 +13,6 @@ function preload() {
 
 function setup() {
    createCanvas(windowWidth, windowHeight);
-   //createCanvas(1520, 924);
-   //bg = loadImage('https://raw.githubusercontent.com/JornMeessen/generative-art-jornmeessen/main/schilderijen/img/Vermeers_final.jpg');
-   //background('#504742');
   noLoop();
 }
 
@@ -23,7 +20,8 @@ function draw() {
   background(bg)
   console.log(bg);
 
-  let positionPainting = 50;
+  let positionPaintingImg = 60;
+  let positionPaintingTitle = 110;
   let totalResults = new Array();
   let paintingSpacing = windowWidth / 3;  
  
@@ -37,27 +35,32 @@ function draw() {
     console.log(randomCijfer);
 
     let paintingImage = createImg(painting.results[randomCijfer].image);
-    paintingImage.position(positionPainting, 50);
+    paintingImage.position(positionPaintingImg, 50);
     paintingImage.id("image");
     paintingImage.style('width', '21%');
-    paintingImage.style('top', '160px');
+    paintingImage.style('top', '70px');
+
     
-    console.log(paintingImage);
+    console.log(paintingImage);    
 
     let paintingTitle = createDiv(painting.results[randomCijfer].title);
-    //text(paintingTitle, positionPainting, 500);
     paintingTitle.style('text-align', 'center');
-    paintingTitle.style('width', '320px');
-    paintingTitle.position(positionPainting, 50);
+    paintingTitle.style('width', '160px');
+    paintingTitle.position(positionPaintingTitle, 50);
     paintingTitle.style('position', 'absolute');
-    paintingTitle.style('top', '500px');
     //paintingTitle.style('border', '1px solid aliceblue');
     paintingTitle.style('background-color', '#dfb698');
     paintingTitle.style('padding', '1em');
     paintingTitle.style('font-family', 'roboto');
     paintingTitle.style('color', 'black'); //aliceblue
+    paintingTitle.style('font-size', 'small'); //aliceblue
+    paintingTitle.style('top', '430px');
 
-    positionPainting = positionPainting + paintingSpacing;
+
+    //330px
+
+    positionPaintingImg = positionPaintingImg + paintingSpacing;
+    positionPaintingTitle = positionPaintingTitle + paintingSpacing;
     
     if(totalResults.length == 3){
 
@@ -93,6 +96,7 @@ function draw() {
   }   
     document.getElementsByTagName("img")[1].onclick = function() {
       window.location.href = "https://jornmeessen.github.io/generative-art-jornmeessen/";
+      //console.log(paintingImage.onclick);
     };
  
 
