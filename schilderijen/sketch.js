@@ -96,7 +96,7 @@ function draw() {
   }   
     document.getElementsByTagName("img")[1].onclick = function() {
       window.location.href = "https://jornmeessen.github.io/generative-art-jornmeessen/";
-      //console.log(paintingImage.onclick);
+      console.log(paintingImage.results[randomCijfer].image.onclick);
     };
  
 
