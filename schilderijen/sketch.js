@@ -1,25 +1,29 @@
 let painting;
 
+var bg;
+
 function preload() {
   let url =
     'https://www.metmuseum.org/api/collection/collectionlisting?%20%201800-1900&q=Vincent%20van%20gogh&perPage=20&offset=0&pageSize=0&sortBy=Relevance&sortOrder=asc&searchField=ArtistCulture&showOnly=openAccess';
   painting = loadJSON(url);
+      bg = loadImage("https://raw.githubusercontent.com/JornMeessen/generative-art-jornmeessen/main/schilderijen/img/Vermeers_final.jpg")
+
   console.log(url);
 }
 
 function setup() {
-   //createCanvas(windowWidth, windowHeight);
-   createCanvas(1520, 924);
-   //let bg = loadImage('img/Vermeers_final.jpg');
+   createCanvas(windowWidth, windowHeight);
+   //createCanvas(1520, 924);
+   //bg = loadImage('https://raw.githubusercontent.com/JornMeessen/generative-art-jornmeessen/main/schilderijen/img/Vermeers_final.jpg');
    //background('#504742');
   noLoop();
 }
 
 function draw() {
-  let bg = loadImage('img/Vermeers_final.jpg');
-  background(bg);
+  background(bg)
+  console.log(bg);
 
-  let positionPainting = 30;
+  let positionPainting = 50;
   let totalResults = new Array();
   let paintingSpacing = windowWidth / 3;  
  
@@ -35,10 +39,10 @@ function draw() {
     let paintingImage = createImg(painting.results[randomCijfer].image);
     paintingImage.position(positionPainting, 50);
     paintingImage.id("image");
+    paintingImage.style('width', '21%');
+    paintingImage.style('top', '160px');
     
     console.log(paintingImage);
-
-
 
     let paintingTitle = createDiv(painting.results[randomCijfer].title);
     //text(paintingTitle, positionPainting, 500);
