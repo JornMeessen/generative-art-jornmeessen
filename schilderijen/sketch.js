@@ -6,7 +6,7 @@ function preload() {
   let url =
     'https://www.metmuseum.org/api/collection/collectionlisting?%20%201800-1900&q=Vincent%20van%20gogh&perPage=20&offset=0&pageSize=0&sortBy=Relevance&sortOrder=asc&searchField=ArtistCulture&showOnly=openAccess';
   painting = loadJSON(url);
-      bg = loadImage("https://raw.githubusercontent.com/JornMeessen/generative-art-jornmeessen/main/schilderijen/img/Vermeers_final.jpg")
+      bg = loadImage("https://raw.githubusercontent.com/JornMeessen/generative-art-jornmeessen/main/schilderijen/img/background_image.jpg")
 
   console.log(url);
 }
@@ -52,10 +52,10 @@ function draw() {
     paintingTitle.style('position', 'absolute');
     paintingTitle.style('top', '500px');
     //paintingTitle.style('border', '1px solid aliceblue');
-    paintingTitle.style('background-color', 'rgba(240, 248, 255, 0.11');
+    paintingTitle.style('background-color', '#dfb698');
     paintingTitle.style('padding', '1em');
     paintingTitle.style('font-family', 'roboto');
-    paintingTitle.style('color', 'aliceblue');
+    paintingTitle.style('color', 'black'); //aliceblue
 
     positionPainting = positionPainting + paintingSpacing;
     
