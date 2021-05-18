@@ -62,9 +62,9 @@ Ik heb nagedacht over een concept en heb een eerste opzet van het project op git
 Aan de slag gegaan met de feedback van tijdens de les en het concept aangescherpt. Heb meerdere versies gecodeerd/geprobeerd.
 * Wat ging goed? - Heb verschillende mogelijkheden geprobeerd en de feedback verwerken en het concept krachtiger maken.
 
-<img src="img/week_2.1" width="400">
-<img src="img/week_2.2" width="400">
-<img src="img/week_2.3" width="400">	
+<img src="img/week_2.1.png" width="400">
+<img src="img/week_2.2.png" width="400">
+<img src="img/week_2.3.png" width="400">	
 
 ### Week 3
 Ben begonnen met de museum wand met radom schilderijen Van Gogh. Ik wilde hier eerst A-frame voor gebruiken. 
@@ -80,15 +80,15 @@ Deze week was er geen les ben verder gegaan met het coderen van de museumwand me
 * Wat ging goed? - Het project begon zijn huidige vorm te krijgen. Heb het voor elkaar gekregen dat niet twee dezelfde schilderijen te zijn waren. Ook heb ik de verschillden input mogelijkheden gecodeerd. 
 * Wat kon beter? - Ik heb geen tijd gehad om aan de interactie te zitten. Hier had ik graag al een vorm in willlen hebben.
 
-<img src="img/week_4" width="400">
-<img src="img/week_4.2" width="400">
+<img src="img/week_4.png" width="400">
+<img src="img/week_4.2.png" width="400">
 
 ### Week 5
 Deze week ben ik met de uistraling en de input van de gebruiker aan de slag gegaan. Tijdens de feedbacksessie kreeg ik positieve reacties op het concept en ontwerp en tips waar ik de interatie van de gebruiker kan toevoegen. 
 * Wat ging goed? - Ik heb een orginele manier van interactie met de gebruiker gemaakt. Het werkte allemaal en ik heb de puntjes op de i gezet.
 * Wat kon beter? - De overgang tussen de museumwand en het eigen gemaakte schilderij had wat beter kunnen zijn. Denk hierbij aan een transitie of een mooie overgang.
 
-<img src="img/week_5.1" width="400">
+<img src="img/week_5.1.png" width="400">
 
 ### Week 6
 Deze week heb ik de laatste feedbacksessie gehad. Hieruit kwamen de laatste puntjes waarmee het project nog iets extra mee kreeg. Het ging hier om de volgende dingen: De uitstraling van een echt museum waarin de schilderijen hangen en de link tussen de schilderijen en het artwork. Het idee was om de prominente kleur uit het schilderij mee te geven aan het artwork. 
@@ -96,9 +96,9 @@ Deze week heb ik de laatste feedbacksessie gehad. Hieruit kwamen de laatste punt
 * Wat ging goed? - De uitstraling van een museum is nu goed naar voren gekomen. De schilderijen lijken nu echt of ze in een museum hangen. 
 * Wat kon beter? - Het is mij helaas niet gelukt om de koppeling te maken tussen het gekozen schilderij en het artwork. Ik heb het geprobeerd met Color Thief. Hiermee wordt de prominente kleur uit een afbeelding gehaald. Deze extentie wilde in niet met de database die ik gebruikt om de schilderijen random op te vragen samenwerken. De database wordt op een manier aangestuurd dat niet met de extentie samen gaat. Heel spijtig :(. Daarna probeerde ik de twee verschillende pagina's met elkaar te comunniceren door de gegevens uit de afbeelding te koppelen aan kleuren in een switch. Dit lukt helaas ook niet. Als alternatief heb ik ervoor gekozen om een array te maken met de meest voorkomende kleurpalleten die van Gogh gebruikt in zijn kunstwerken.   
 
-<img src="img/week_6.1" width="400">
-<img src="img/week_6.2" width="400">
-<img src="img/week_6.3" width="400">
+<img src="img/week_6.1.png" width="400">
+<img src="img/week_6.2.png" width="400">
+<img src="img/week_6.3.png" width="400">
 
 ## Bronnenlijst
 

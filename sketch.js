@@ -72,7 +72,7 @@ var sketch = function(p) {
 
 
  	var w = Math.floor(p.random(0, 23));
- 	console.log('kleur' + colors[w]);
+ 	console.log('kleur ' + colors[w]);
 
     // console.log("red " + red );
     // console.log("green " + green );
@@ -94,17 +94,47 @@ var sketch = function(p) {
 
 
   p.keyReleased = function() {
-    if (p.key == 's' || p.key == 'S') p.saveCanvas('gd.timestamp()', 'png');
-    if (p.key == '1') drawMode = 1;
-    if (p.key == '2') drawMode = 2;
-    if (p.key == 'w') agentCount = agentCount - 300;
-    if (p.key == 'f') agentCount = agentCount + 1000;
-   
-    if (p.key == 'p') {
+    if (p.key == 's' || p.key == 'S'){
+       p.saveCanvas('gd.timestamp()', 'png');
+       console.log('opslaan');
+    }
+    if (p.key == '1'){
+        drawMode = 1;
+        console.log('drawMode 1 lijnen');
+    }
+    if (p.key == '2'){
+      drawMode = 2;
+      console.log('drawMode 2 - recht');
+    }
+    if (p.keyCode == p.DELETE || p.keyCode == p.BACKSPACE){
+      p.background(255);
+      console.log('opnieuw');
+    } 
+    if (p.key == 'w'){
+        agentCount = agentCount - 300;
+    }
+    if (p.key == 'r'){
+      agentCount = agentCount - 500;
+      console.log('minder ' + agentCount);
+    }
+    if (p.key == 'f'){
+      agentCount = agentCount + 500;
+        console.log('meer ' + agentCount);
+    }
+    if (p.key == 'v') {
       var newNoiseSeed = p.floor(p.random(10000));
       p.noiseSeed(newNoiseSeed);
+       console.log('verander ' + newNoiseSeed);
     }
-    if (p.keyCode == p.DELETE || p.keyCode == p.BACKSPACE) p.background(255);
+    if (p.key == 'k') {
+      colors = [Purple, FuchsiaBlue, BilobaFlower, Fiord, Kimberly, Logan, OuterSpace, Corduroy, Edward, Woodland, Dallas, Sycamore, Shadow, PineGlade, HawaiianTan, Anzac, Ronchi, ChileanFire, WestSide, LightningYellow, FrenchUltramarine, CeruleanBlue, Vermillion, MadderLake];
+      w = Math.floor(p.random(0, 23));
+
+      p.stroke(colors[w]);
+      
+      console.log('kleur ' + colors[w]);
+    }
+    
 
   };
 
