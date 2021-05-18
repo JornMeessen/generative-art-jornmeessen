@@ -35,13 +35,48 @@ var sketch = function(p) {
     }
   };
 
-    let red =  /*255 */ Math.floor(p.random(0, 254) + 1);
-    let green = /*255 */ Math.floor(p.random(0, 254) + 1);
-    let blue = /*255 */ Math.floor(p.random(0, 254) + 1);
+    // let red =  /*255 */ Math.floor(p.random(10, 150) + 1);
+    // let green = /*255 */ Math.floor(p.random(10, 150) + 1);
+    // let blue = /*255 */ Math.floor(p.random(10, 150) + 1);
 
-    console.log("red " + red );
-    console.log("green " + green );
-    console.log("blue " + blue );
+    let Purple = ("#56039b");
+  	let FuchsiaBlue = ("#634EC7");
+  	let BilobaFlower = ("#a6a4ed");
+  	let Fiord = ("#3C446B");
+  	let Kimberly = ("#63659e");
+  	let Logan = ("#9ca0c6");
+  	
+  	let OuterSpace = ("#333e40");
+  	let Corduroy = ("#565f5c");
+  	let Edward = ("#acb6ae");
+  	let Woodland = ("#4d4a2b");
+  	let Dallas = ("#59561f");
+  	let Sycamore = ("#908a3e");
+  	let Shadow = ("#7e7d47");
+  	let PineGlade = ("#C5C893");
+
+  	let HawaiianTan = ("#966719");
+  	let Anzac = ("#E1C148");
+  	let Ronchi = ("#E8CA50");
+  	let ChileanFire = ("#f87509");
+  	let WestSide = ("#FB8E0F");
+  	let LightningYellow = ("#fbc524");
+
+  	let FrenchUltramarine = ("#2e539e");
+  	let CeruleanBlue = ("#5caacb");
+  	let Vermillion = ("#ce2a2a");
+	let MadderLake = ("#732f33");
+
+
+  let colors = [Purple, FuchsiaBlue, BilobaFlower, Fiord, Kimberly, Logan, OuterSpace, Corduroy, Edward, Woodland, Dallas, Sycamore, Shadow, PineGlade, HawaiianTan, Anzac, Ronchi, ChileanFire, WestSide, LightningYellow, FrenchUltramarine, CeruleanBlue, Vermillion, MadderLake]
+
+
+ 	var w = Math.floor(p.random(0, 23));
+ 	console.log('kleur' + colors[w]);
+
+    // console.log("red " + red );
+    // console.log("green " + green );
+    // console.log("blue " + blue );
 
   p.draw = function() {
     p.fill(100, overlayAlpha);
@@ -49,8 +84,8 @@ var sketch = function(p) {
     p.rect(0, 0, p.width, p.height);
 
     // Draw agents
-      p.stroke(red, green, blue); //agentAlpha
-
+      p.stroke(colors[w]); //agentAlpha
+      
     for (var i = 0; i < agentCount; i++) {
       if (drawMode == 1) agents[i].update1(noiseScale, noiseStrength, strokeWidth);
       else agents[i].update2(noiseScale, noiseStrength, strokeWidth);
@@ -117,13 +152,12 @@ var sketch = function(p) {
        console.log('verander ' + newNoiseSeed);
       break
       case "kleur":
-      red =  /*255 */ Math.floor(p.random(0, 254) + 1);
-      green = /*255 */ Math.floor(p.random(0, 254) + 1);
-      blue = /*255 */ Math.floor(p.random(0, 254) + 1);
+      colors = [Purple, FuchsiaBlue, BilobaFlower, Fiord, Kimberly, Logan, OuterSpace, Corduroy, Edward, Woodland, Dallas, Sycamore, Shadow, PineGlade, HawaiianTan, Anzac, Ronchi, ChileanFire, WestSide, LightningYellow, FrenchUltramarine, CeruleanBlue, Vermillion, MadderLake];
+      w = Math.floor(p.random(0, 23));
 
-      p.stroke(red, green, blue);
+      p.stroke(colors[w]);
       
-      console.log('kleur ' + red + ' ' + green + ' ' + blue)
+      console.log('kleur ' + colors[w]);
       break 
   }
 }
