@@ -13,7 +13,8 @@
 https://jornmeessen.github.io/generative-art-jornmeessen/schilderijen/
 * De website werkt het beste op chrome.
 
-https://youtu.be/0dJEwCf8-6w
+**Videoboodschap**
+![Watch the video](https://youtu.be/0dJEwCf8-6w)
 
 ## Concept
 
